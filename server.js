@@ -21,7 +21,7 @@ app.use(cors())
 
 
 
-app.listen(10533, ()=>{
+app.listen(process.env.PORT || 10533, ()=>{
     console.log("app is running");
 })
 
